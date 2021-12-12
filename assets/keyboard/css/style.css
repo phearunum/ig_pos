@@ -1,0 +1,217 @@
+/* CSS Document */
+body{
+}
+.manu ul{
+list-style:none;
+}
+.manu li{
+width:100px;
+float:left;
+height:40px;
+line-height:40px;
+border-right:1px solid #CCCCCC;
+margin-top:-10px;
+
+}
+.manu a{
+text-decoration:none;
+color:#FFFFFF;
+display:block;
+text-align:center;
+font-size:16px;
+}
+.manu a:hover{
+font-size:18px;
+color:#999999;
+}
+.list_ads {
+    background-color: #e9eaed;
+}
+.list_ads, .gallery_ads {
+    border: #e1e1e1 1px solid;
+    border-top: 0;
+	width:870px;
+	margin-left:30px;
+}
+.list_ads>li a {
+    position: relative;
+    padding: 10px 0 3px;
+    overflow: hidden;
+}
+
+.list_ads a {
+    display: table;
+    width: 100%;
+}
+li a {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #006190;
+}
+.list_ads>li.paid_ad.top_ad, .gallery_ads>li.paid_ad.top_ad a {
+    background-color: #fffbf1;
+}
+.list_ads>li.paid_ad {
+    position: relative;
+    overflow: hidden;
+}
+.list_ads>li {
+   
+
+    border-bottom-color: #d1d1d1;
+   
+    margin: 10px;
+}
+.p_relative {
+    position: relative;
+}
+.list_ads>li a {
+    position: relative;
+    padding: 10px 0 3px;
+    overflow: hidden;
+}
+.list_ads a {
+    display: table;
+    width: 100%;
+}
+li a {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #006190;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+.list_ads a>*>div {
+    display: table-cell;
+    vertical-align: top;
+}
+.list_ads .img {
+    width: 220px;
+    height: 160px;
+}
+.list_ads .img, .gallery_ads .img {
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+.midle:empty {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.midle {
+    position: absolute;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+.list_ads .detail {
+    padding: 0 350px 0 0;
+	border:1px solid #000000;
+	float:left;
+	margin-left:230px;
+	margin-top:-180px;
+	width:700px;
+	height:200px;
+	
+}
+.list_ads a>*>div {
+    display: table-cell;
+    vertical-align: top;
+}
+.list_ads .detail .title, .list_ads .detail p {
+    max-width: 580px;
+    overflow: hidden;
+}
+.list_ads .title {
+    font-size: 18px!important;
+    overflow: hidden;
+    height: 24px;
+}
+.list_ads .title, .gallery_ads .title {
+    color: #006190;
+    padding-bottom: 5px;
+    padding-top: 0;
+}
+.list_ads .promote_ad p.pc {
+    min-height: 36px!important;
+}
+.list_ads p.pc {
+    min-height: 60px;
+    margin-top: 10px;
+}
+.list_ads .detail .title, .list_ads .detail p {
+    max-width: 480px;
+    overflow: hidden;
+}
+.ps {
+    color: #4d4d4d;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-right: 60px;
+    margin-top: 2px;
+}
+.list_ads .optional, .gallery_ads .optional {
+    display: inline-block;
+    font-size: 11px;
+    color: #818181;
+    margin-top: 8px;
+}
+.list_ads .detail p {
+    max-width: 480px;
+    overflow: hidden;
+}
+.gallery_ads .price, .list_ads .price {
+    color: #ff3500;
+    padding: 0!important;
+	
+}
+.list_ads .price {
+    font-size: 18px;
+    font-weight: 700;
+	float:left;
+}
+.list_ads p {
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-right: 60px;
+    margin-top: 2px;
+	margin-left:-190px;
+	overflow:hidden;
+}
+.list_ads>li.paid_ad.top_ad, .gallery_ads>li.paid_ad.top_ad a {
+    background-color: #fffbf1;
+}
+.list_ads>li.paid_ad {
+    position: relative;
+    overflow: hidden;
+}
+.list_ads>li {
+    
+    border-top-color:#CCCCCC;
+    
+   width:100%;
+ 
+}
+.p_relative {
+    position: relative;
+}
+.full_content {
+    overflow: hidden;
+    clear: both;
+}
+.price price-pc{
+style="margin-top:40px; margin-left:40px;"
+}
+
+

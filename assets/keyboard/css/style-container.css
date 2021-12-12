@@ -1,0 +1,24 @@
+/* CSS Document */
+.dropdown-menu-category{
+width:99%;
+padding:0;
+margin-left:-10px;
+border-right-color:#transparent;
+border-top-color:#transparent;
+background:rgb(249,249,249);
+}
+.banner-category-title{
+font-size:12px;
+}
+.banner-category-img{
+width:85px;
+height:30px;
+margin-top:1000px;
+}
+.dropdown-menu-category-section-content{
+width:100%;
+background:rgb(249,249,249);
+}
+li{
+width:120%;}
+

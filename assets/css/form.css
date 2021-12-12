@@ -1,0 +1,340 @@
+﻿
+* { margin: 0; padding: 0; }
+
+html { height: 100%; font-size: 62.5% }
+
+body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helvetica, sans-serif; }
+
+
+/* ==================== Form style sheet ==================== */
+
+form { 
+       
+       margin: 25px 0 0 29px;
+       margin-top: 50px;
+       width: 1300px;
+       padding-bottom: 30px; }
+
+fieldset { margin: 0 0 25px 0;
+           margin-top: 70px;
+           border: 1px solid #095D92; 
+           border-left:none;
+           border-right:none;
+           border-bottom-width: 4px;
+           border-bottom-color: #ECB908;
+           
+           border-top-left-radius: 8px;
+           border-top-right-radius: 8px;
+           border-top-width: 20px;
+           border-top-color: #3A773C;
+           
+           padding: 12px 17px; 
+           background-color: #3A773C }
+legend { font-size: 1.1em; 
+         background-color: #377838; 
+         color: #FFFFFF; font-weight: bold; 
+         padding: 4px 8px; }
+
+label.float { float: left; 
+              display: block; 
+              width: 150px; 
+              margin: 4px 0 0 0; 
+              clear: left; }
+label { display: block; 
+        width: auto; 
+        margin: 0 0 10px 0; }
+label.spam-protection { display: inline; 
+                        width: auto; 
+                        margin: 0; }
+
+input.inp-text, textarea, input.choose, input.answer { border: 1px solid #909090; padding: 3px; }
+input.inp-text { width: 300px; margin: 0 0 8px 0; }
+textarea { width: 400px; height: 150px; margin: 0 0 12px 0; display: block; }
+
+.drop_list {
+    width: 300px; margin: 0 0 8px 0;
+}
+
+
+input.choose { margin: 0 2px 0 0; }
+input.answer { width: 40px; margin: 0 0 0 10px; }
+input.submit-button { border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight:bold;
+                      display: block;
+                      margin: 0px 0 0 0;
+                      width:70px;
+                      height:40px;
+                      float:left;
+                      background-color:#3A773C;
+                      color:#FFFFFF;
+                      font-style: normal;
+    font-variant: normal;
+    font-size: 1.4em;
+    line-height: normal;
+    font-family:Arial;
+}
+input.cancel-button { font: 1.4em "Consolas";
+                      font-weight:bold;
+                      font-family:Arial;
+                      display: block;
+                      margin: 0px 0 0 0;
+                      width:70px;
+                      height:40px;
+                      background-color:#c12e2a;
+                      color:#FFFFFF;
+                      border:none;
+}
+input.back-button { font: 1.4em "Consolas";
+                      font-weight:bold;
+                      display: block;
+                      margin: 0px 0 0 0;
+                      font-family:Arial;
+                      width:70px;
+                      height:40px;
+                      float:left;
+                      background-color:#DB4823;
+                      color:#FFFFFF;
+                      border:none;
+}
+input.search-button { font: 12 "Arial Narrow";
+                      font-family:Arial;
+                      font-weight:bold;
+                      display: block;
+                      margin: 0px 0 0 0;
+                      width:60px;
+                      height:25px;
+                      float:right;
+                      float:left;
+                      background-color:#1584ae;
+                      color:#FFFFFF;
+                      border:none;
+}
+
+form br { display: none; width:100%;}
+#form1{
+    width:1000px;
+}
+/* ==================== Form style sheet END ==================== */
+
+/*========================table style======================*/
+
+    .TFtable{
+    margin-top:30px;
+            width:100%; 
+            border-collapse:collapse; 
+    font-family:Arial;
+    }
+    .TFtable th{
+        
+        background-color:#3A773C;
+        border:#4e95f4 1px solid;
+        color:#FFFFFF;
+        height:30px;
+        text-align: center;
+        
+    }
+	.TFtable td{ 
+	padding:7px; border:#4e95f4 1px solid;
+        text-align:center;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: #C4D4BC;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: #DADADA;
+	}
+
+    .inp-text1{
+        border: 1px solid #909090; padding: 2px;
+        font-family:Arial;
+        width:300px;
+        height: 35px;
+        font-size:17px;
+        border-radius: 14px;
+        color:#000000;
+
+    }
+    .inp-text1:hover{
+        border-color:#095D92;
+        background-color:#b8d1f3;
+    }
+/*========================end table style======================*/
+.sale-right{
+    vertical-align:top;width:300px;
+    background-color:#095D92;
+    color:#FFF;
+}
+textArea{
+    color:#000000;
+    width:300px;
+}
+/*========================Table Category=============================*/
+#category {
+    border:1px;
+    grid-cell:none;
+}
+
+/*==========================End Table================================*/
+
+.btnType {
+    width:150px;
+    height:70px;
+    background-color:#377838;
+    text-align:center;
+    border:solid;
+    text-transform:uppercase;
+}
+
+a{
+    vertical-align:middle;
+    color:#FFFFFF;
+    text-decoration:none;
+    
+}
+
+.btnType:hover{
+    background-color:#6E9A52;
+}
+
+/*subitem*/
+
+#btnSubItem {
+    width:150px;
+    height:70px;
+    background-color:#1584ae;
+    text-align:center;
+    border:solid;
+    text-transform:uppercase;
+}
+
+#btnSubItem:hover{
+    background-color:#095D92
+}
+
+#form_login .txtlogin:hover{
+    border-color:#ff6a00;
+}
+#btnClose{
+    border-style:solid;
+    border-color:inherit;
+    font-size:16px;
+    width:80px;
+    border:solid;
+    height:30px;
+    border-width:1px;
+    border-radius:7px;
+    color:#FFF;
+    background-color:#095D92;
+}
+
+#btnLogin:hover {
+    background-color:#3A773C;
+}
+
+#btnCancel:hover{
+     background-color:#ff6a00;
+}
+
+.formSale td{
+
+    font-size:15px;
+    font-family:Arial;
+    padding: 3px;
+    color:#FFF;
+}
+
+#lblSubTotal{
+    font-size:16px;
+    color:#DB4823;
+}
+
+.txtLogin {
+    border-style:solid;
+    border-color:#000000;
+}
+
+.btnMenu
+{
+    border-style:none;
+    width:230px;
+    height:120px;
+    font-family:Arial;
+    font-size:17px; 
+    color:#FFF;   
+}
+
+#btnBrowse{
+    border-style:solid;
+    border-color:inherit;
+    font-size:16px;
+    width:150px;
+    border:solid;
+    height:50px;
+    border-width:1px;
+    color:#FFF;
+    background-color:#095D92;
+}
+
+.btnSale{
+    width:150px;height:70px;color:#000000;border:none;
+}
+
+.top{
+    vertical-align: top;
+}
+
+#panel_itemtype{
+    text-align:center;
+}
+
+.list li{
+    list-style-type: none;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url(item1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.list li a{
+    color: #000000;
+    margin-left: 50px;
+}
+.list li:hover{
+     background-image: url(item.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.list li a:hover{
+    color:#000000;
+    text-decoration:none;
+}
+.list li a:visited{
+    color:#000000;
+    text-decoration:none;
+}
+
+#tb_listitem th{
+    text-align:center;
+}
+#tb_listitem td{
+    text-align: center;
+}
+
+.title-top{
+    color:#e6db74;
+    margin-top: 0px;
+    
+}

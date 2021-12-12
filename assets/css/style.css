@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin-top30px{
+	margin:50px 40px 0 40px;
+}
+
+.padding10px{
+	padding:25px 0px;	
+}
+
+.clear{
+	clear:both;	
+}
+
+.spmenu{
+	background:#ddd;width:180px;height:180px;text-align:center;	
+}
+

@@ -1,0 +1,39 @@
+        .key{
+			border: 1px solid;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			display: block;
+			cursor: pointer;
+		}
+		.key:hover{
+			background: #000;
+			color: #fff;
+
+		}
+		.key img:hover{
+			color: #fff;
+		
+		}
+		.main-board{
+			border: 1px solid; 
+			text-align: center;
+			background: #07317d;
+			cursor: pointer;
+			position: relative;
+			color: #fff;
+		}
+		.keyboard table tr{
+			height: 42px;
+    		text-align: center;
+		}
+		.pointer td:hover{
+			cursor: pointer;
+			background: #000;
+			color: #fff;
+		}
+		.keyboard{
+			opacity: 0.9;
+			bottom: 0px;
+		}
+
